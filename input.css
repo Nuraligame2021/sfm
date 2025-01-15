@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(#002fff, #00c3ff);
+    height: 100vh;
+}
+
+
+
+#Valveboard {
+    display: inline-grid;
+grid-template-columns: repeat(3, 50px);
+gap: 15px;
+background-color: blue;
+transition: 500ms;
+border-radius: 35;
+width: 350; 
+margin: 0 auto;
+justify-content: space-between;
+
+}
+.cell {
+    background-color: deepskyblue;
+    transition: 500ms;
+}
+.cell:hover {
+    background-color:rgb(105, 0, 175);
+transition: 500;
+}
+.cell:active{
+    background-color: rgb(0, 108, 196);
+}
+
+
+.cellHide {
+    color: transparent;
+    user-select: none;
+}
+
+.cellShown {
+    color: rgb(0, 255, 242);
+}
+
+
+
+
+
+
+
+
